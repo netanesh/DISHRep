@@ -1,3 +1,5 @@
+set HTTPS_PROXY=http://gproxy.corp.amdocs.com:8080
+set HTTP_PROXY=http://gproxy.corp.amdocs.com:8080
 git clone https://github.com/netanesh/GradleSeleniumRep.git
 cd GradleSeleniumRep 
 git checkout -b Test --track origin/Test
